@@ -1,17 +1,16 @@
 Pod::Spec.new do |spec|
-  spec.name = 'Heimdallr'
-  spec.version = '3.7.0'
+  spec.name = 'ToznyHeimdallr'
+  spec.version = '4.0.1'
   spec.authors = {
     'trivago' => 'info@trivago.de'
   }
-  spec.social_media_url = 'https://twitter.com/trivago'
   spec.license = {
     :type => 'Apache License, Version 2.0',
     :file => 'LICENSE'
   }
-  spec.homepage = 'https://github.com/trivago/Heimdallr.swift'
+  spec.homepage = 'https://github.com/tozny/Heimdallr.swift'
   spec.source = {
-    :git => 'https://github.com/trivago/Heimdallr.swift.git',
+    :git => 'https://github.com/tozny/Heimdallr.swift.git',
     :tag => spec.version.to_s
   }
   spec.summary = 'Easy to use OAuth 2 library, written in Swift'
@@ -19,6 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '9.0'
   spec.osx.deployment_target = '10.10'
+  spec.swift_version = '5.0'
 
   spec.default_subspec = 'Core'
 
