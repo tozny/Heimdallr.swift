@@ -5,4 +5,4 @@ github "AliSoftware/OHHTTPStubs" ~> 7.0
 github "Quick/Quick" ~> 2.1.0
 
 # Matchers
-github "Quick/Nimble" ~> 8.0.1
+github "Quick/Nimble" ~> 9.2.1
